@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D72B27BA1B0FC2B100AE161C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27B91B0FC2B100AE161C /* main.m */; };
+		D72B27BD1B0FC2B100AE161C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27BC1B0FC2B100AE161C /* AppDelegate.m */; };
+		D72B27C01B0FC2B100AE161C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27BF1B0FC2B100AE161C /* ViewController.m */; };
+		D72B27C31B0FC2B100AE161C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72B27C11B0FC2B100AE161C /* Main.storyboard */; };
+		D72B27C51B0FC2B100AE161C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72B27C41B0FC2B100AE161C /* Images.xcassets */; };
+		D72B27C81B0FC2B100AE161C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B27C61B0FC2B100AE161C /* LaunchScreen.xib */; };
+		D72B27D41B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27D31B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72B27CE1B0FC2B200AE161C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72B27AC1B0FC2B100AE161C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72B27B31B0FC2B100AE161C;
+			remoteInfo = OSKStatusBarViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72B27B41B0FC2B100AE161C /* OSKStatusBarViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSKStatusBarViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72B27B81B0FC2B100AE161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72B27B91B0FC2B100AE161C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D72B27BB1B0FC2B100AE161C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D72B27BC1B0FC2B100AE161C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D72B27BE1B0FC2B100AE161C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D72B27BF1B0FC2B100AE161C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D72B27C21B0FC2B100AE161C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72B27C41B0FC2B100AE161C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D72B27C71B0FC2B100AE161C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D72B27CD1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSKStatusBarViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72B27D21B0FC2B200AE161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72B27D31B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSKStatusBarViewControllerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72B27B11B0FC2B100AE161C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72B27CA1B0FC2B200AE161C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72B27AB1B0FC2B100AE161C = {
+			isa = PBXGroup;
+			children = (
+				D72B27B61B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */,
+				D72B27D01B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests */,
+				D72B27B51B0FC2B100AE161C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D72B27B51B0FC2B100AE161C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27B41B0FC2B100AE161C /* OSKStatusBarViewControllerDemo.app */,
+				D72B27CD1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72B27B61B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27BB1B0FC2B100AE161C /* AppDelegate.h */,
+				D72B27BC1B0FC2B100AE161C /* AppDelegate.m */,
+				D72B27BE1B0FC2B100AE161C /* ViewController.h */,
+				D72B27BF1B0FC2B100AE161C /* ViewController.m */,
+				D72B27C11B0FC2B100AE161C /* Main.storyboard */,
+				D72B27C41B0FC2B100AE161C /* Images.xcassets */,
+				D72B27C61B0FC2B100AE161C /* LaunchScreen.xib */,
+				D72B27B71B0FC2B100AE161C /* Supporting Files */,
+			);
+			path = OSKStatusBarViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		D72B27B71B0FC2B100AE161C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27B81B0FC2B100AE161C /* Info.plist */,
+				D72B27B91B0FC2B100AE161C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D72B27D01B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27D31B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m */,
+				D72B27D11B0FC2B200AE161C /* Supporting Files */,
+			);
+			path = OSKStatusBarViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		D72B27D11B0FC2B200AE161C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27D21B0FC2B200AE161C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72B27B31B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72B27D71B0FC2B200AE161C /* Build configuration list for PBXNativeTarget "OSKStatusBarViewControllerDemo" */;
+			buildPhases = (
+				D72B27B01B0FC2B100AE161C /* Sources */,
+				D72B27B11B0FC2B100AE161C /* Frameworks */,
+				D72B27B21B0FC2B100AE161C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSKStatusBarViewControllerDemo;
+			productName = OSKStatusBarViewControllerDemo;
+			productReference = D72B27B41B0FC2B100AE161C /* OSKStatusBarViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D72B27CC1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72B27DA1B0FC2B200AE161C /* Build configuration list for PBXNativeTarget "OSKStatusBarViewControllerDemoTests" */;
+			buildPhases = (
+				D72B27C91B0FC2B200AE161C /* Sources */,
+				D72B27CA1B0FC2B200AE161C /* Frameworks */,
+				D72B27CB1B0FC2B200AE161C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72B27CF1B0FC2B200AE161C /* PBXTargetDependency */,
+			);
+			name = OSKStatusBarViewControllerDemoTests;
+			productName = OSKStatusBarViewControllerDemoTests;
+			productReference = D72B27CD1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72B27AC1B0FC2B100AE161C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Tomoya_Hirano;
+				TargetAttributes = {
+					D72B27B31B0FC2B100AE161C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D72B27CC1B0FC2B200AE161C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D72B27B31B0FC2B100AE161C;
+					};
+				};
+			};
+			buildConfigurationList = D72B27AF1B0FC2B100AE161C /* Build configuration list for PBXProject "OSKStatusBarViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72B27AB1B0FC2B100AE161C;
+			productRefGroup = D72B27B51B0FC2B100AE161C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72B27B31B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */,
+				D72B27CC1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72B27B21B0FC2B100AE161C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72B27C31B0FC2B100AE161C /* Main.storyboard in Resources */,
+				D72B27C81B0FC2B100AE161C /* LaunchScreen.xib in Resources */,
+				D72B27C51B0FC2B100AE161C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72B27CB1B0FC2B200AE161C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72B27B01B0FC2B100AE161C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72B27C01B0FC2B100AE161C /* ViewController.m in Sources */,
+				D72B27BD1B0FC2B100AE161C /* AppDelegate.m in Sources */,
+				D72B27BA1B0FC2B100AE161C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72B27C91B0FC2B200AE161C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72B27D41B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D72B27CF1B0FC2B200AE161C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72B27B31B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */;
+			targetProxy = D72B27CE1B0FC2B200AE161C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D72B27C11B0FC2B100AE161C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72B27C21B0FC2B100AE161C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72B27C61B0FC2B100AE161C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72B27C71B0FC2B100AE161C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72B27D51B0FC2B200AE161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D72B27D61B0FC2B200AE161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72B27D81B0FC2B200AE161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSKStatusBarViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D72B27D91B0FC2B200AE161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSKStatusBarViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D72B27DB1B0FC2B200AE161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OSKStatusBarViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSKStatusBarViewControllerDemo.app/OSKStatusBarViewControllerDemo";
+			};
+			name = Debug;
+		};
+		D72B27DC1B0FC2B200AE161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OSKStatusBarViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSKStatusBarViewControllerDemo.app/OSKStatusBarViewControllerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72B27AF1B0FC2B100AE161C /* Build configuration list for PBXProject "OSKStatusBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72B27D51B0FC2B200AE161C /* Debug */,
+				D72B27D61B0FC2B200AE161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72B27D71B0FC2B200AE161C /* Build configuration list for PBXNativeTarget "OSKStatusBarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72B27D81B0FC2B200AE161C /* Debug */,
+				D72B27D91B0FC2B200AE161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D72B27DA1B0FC2B200AE161C /* Build configuration list for PBXNativeTarget "OSKStatusBarViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72B27DB1B0FC2B200AE161C /* Debug */,
+				D72B27DC1B0FC2B200AE161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72B27AC1B0FC2B100AE161C /* Project object */;
+}
