@@ -29,5 +29,8 @@ so,need refresh.
 ##Bad point
 Statusbar become strange display for a while In refresh.
 
+##Good point
+Dose not use private method.
+
 ##LICENSE
 The MIT License (MIT). Copyright (c) 2015 noppefoxwolf.
