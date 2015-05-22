@@ -103,7 +103,7 @@
 				D72B27B81B0FC2B100AE161C /* Info.plist */,
 				D72B27B91B0FC2B100AE161C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D72B27D01B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests */ = {
@@ -120,7 +120,7 @@
 			children = (
 				D72B27D21B0FC2B200AE161C /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D72B27DD1B0FC2BA00AE161C /* OSKStatusBarViewController */ = {
@@ -129,7 +129,7 @@
 				D72B27DE1B0FC2C300AE161C /* OSKStatusBarViewController.h */,
 				D72B27DF1B0FC2C300AE161C /* OSKStatusBarViewController.m */,
 			);
-			name = OSKStatusBarViewController;
+			path = OSKStatusBarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +264,7 @@
 				D72B27C21B0FC2B100AE161C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D72B27C61B0FC2B100AE161C /* LaunchScreen.xib */ = {
@@ -272,6 +273,7 @@
 				D72B27C71B0FC2B100AE161C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -361,7 +363,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OSKStatusBarViewControllerDemo/Info.plist;
+				INFOPLIST_FILE = "OSKStatusBarViewControllerDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,7 +374,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OSKStatusBarViewControllerDemo/Info.plist;
+				INFOPLIST_FILE = "OSKStatusBarViewControllerDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -389,7 +393,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OSKStatusBarViewControllerDemoTests/Info.plist;
+				INFOPLIST_FILE = "OSKStatusBarViewControllerDemoTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSKStatusBarViewControllerDemo.app/OSKStatusBarViewControllerDemo";
@@ -404,7 +408,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OSKStatusBarViewControllerDemoTests/Info.plist;
+				INFOPLIST_FILE = "OSKStatusBarViewControllerDemoTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSKStatusBarViewControllerDemo.app/OSKStatusBarViewControllerDemo";
@@ -430,6 +434,7 @@
 				D72B27D91B0FC2B200AE161C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D72B27DA1B0FC2B200AE161C /* Build configuration list for PBXNativeTarget "OSKStatusBarViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				D72B27DC1B0FC2B200AE161C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
