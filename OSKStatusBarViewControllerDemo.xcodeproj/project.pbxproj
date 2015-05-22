@@ -14,6 +14,7 @@
 		D72B27C51B0FC2B100AE161C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72B27C41B0FC2B100AE161C /* Images.xcassets */; };
 		D72B27C81B0FC2B100AE161C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B27C61B0FC2B100AE161C /* LaunchScreen.xib */; };
 		D72B27D41B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27D31B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m */; };
+		D72B27E01B0FC2C300AE161C /* OSKStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B27DF1B0FC2C300AE161C /* OSKStatusBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D72B27CD1B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSKStatusBarViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72B27D21B0FC2B200AE161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72B27D31B0FC2B200AE161C /* OSKStatusBarViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSKStatusBarViewControllerDemoTests.m; sourceTree = "<group>"; };
+		D72B27DE1B0FC2C300AE161C /* OSKStatusBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKStatusBarViewController.h; sourceTree = "<group>"; };
+		D72B27DF1B0FC2C300AE161C /* OSKStatusBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKStatusBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D72B27B61B0FC2B100AE161C /* OSKStatusBarViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D72B27DD1B0FC2BA00AE161C /* OSKStatusBarViewController */,
 				D72B27BB1B0FC2B100AE161C /* AppDelegate.h */,
 				D72B27BC1B0FC2B100AE161C /* AppDelegate.m */,
 				D72B27BE1B0FC2B100AE161C /* ViewController.h */,
@@ -117,6 +121,15 @@
 				D72B27D21B0FC2B200AE161C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D72B27DD1B0FC2BA00AE161C /* OSKStatusBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D72B27DE1B0FC2C300AE161C /* OSKStatusBarViewController.h */,
+				D72B27DF1B0FC2C300AE161C /* OSKStatusBarViewController.m */,
+			);
+			name = OSKStatusBarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72B27E01B0FC2C300AE161C /* OSKStatusBarViewController.m in Sources */,
 				D72B27C01B0FC2B100AE161C /* ViewController.m in Sources */,
 				D72B27BD1B0FC2B100AE161C /* AppDelegate.m in Sources */,
 				D72B27BA1B0FC2B100AE161C /* main.m in Sources */,

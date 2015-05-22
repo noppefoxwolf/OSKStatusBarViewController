@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OSKStatusBarViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : OSKStatusBarViewController
 
 @end
 
