@@ -1,16 +1,17 @@
 # OSKStatusBarViewController
-Custom(Fake)StatusBar
+Custom your statusBar color without private method.(joke OSS)
 
 ![](https://raw.githubusercontent.com/noppefoxwolf/OSKStatusBarViewController/master/capture.png)
 
 ##INSTALLATION
 
 First you have to import in header file of your view controller:
-#import "OSKStatusBarViewController.h"
+
+```#import "OSKStatusBarViewController.h"```
 
 Then your view controller replace superclass to OSKStatusBarViewController:
 
-@interface ViewController : OSKStatusBarViewController
+```@interface ViewController : OSKStatusBarViewController```
 
 ##Usage🐰
 
@@ -20,7 +21,7 @@ change color.
 refresh statusbar.
 `[self refreshStatusBar];`
 
-##Why call refreshStatuBar?
+##Why should you call refreshStatuBar?
 
 Actually,OSKStatusBarViewController does not change statusBar Color.
 That capture statusbar image and tint This.
