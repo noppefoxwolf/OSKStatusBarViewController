@@ -39,9 +39,7 @@
 }
 
 - (void)refreshStatusBar{
-    [[UIApplication sharedApplication] setStatusBarHidden:false];
     goastImageView.image = [self tintStatusBarImageWithColor:self.statusBarColor];
-    [[UIApplication sharedApplication] setStatusBarHidden:true];
 }
 
 - (void)viewDidDisappear:(BOOL)animated{
@@ -92,7 +90,9 @@
 - (UIImage *)statusBarImage{
     goastImageView.image = nil;
     statusbarBack.backgroundColor = [UIColor whiteColor];
+    [[UIApplication sharedApplication] setStatusBarHidden:false];
     UIView*view = [[UIScreen mainScreen] snapshotViewAfterScreenUpdates:true];
+    [[UIApplication sharedApplication] setStatusBarHidden:true];
     CGSize size = [[UIApplication sharedApplication] statusBarFrame].size;
     UIImage *capture;
     UIGraphicsBeginImageContextWithOptions(size , true ,[UIScreen mainScreen].scale);

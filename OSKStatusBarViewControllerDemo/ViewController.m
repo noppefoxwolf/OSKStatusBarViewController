@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [self randomColor];
     self.statusBarColor = [self randomColor];
+    [NSTimer scheduledTimerWithTimeInterval:60 target:[NSBlockOperation blockOperationWithBlock:^{
+        [self refreshStatusBar];
+    }] selector:@selector(main) userInfo:nil repeats:true];
 }
 
 - (UIColor*)randomColor{
